@@ -1,0 +1,43 @@
+✅ What You'll Create:
+A WordPress plugin that adds custom Elementor widgets, like:
+-CTA Box
+-Testimonial
+-More in the future
+
+🪜 Step-by-Step Guide to Create Elementor Custom Widgets Plugin
+
+/wp-content/plugins/elementor-custom-widgets/
+│
+├── elementor-custom-widgets.php   ← Main plugin file
+└── widgets/
+    ├── cta-box-widget.php         ← First widget (CTA Box)
+    └── testimonial-widget.php     ← Second widget (Testimonial Box)
+
+
+🧩 Step 2: Create Main Plugin File
+File: elementor-custom-widgets.php
+
+✅ Purpose:
+- Registers custom Elementor widgets
+- Loads widget files
+- Adds custom widget category in Elementor
+
+Note: check file 1.1
+
+
+🧱 Step 3: Create Your First Widget
+File: widgets/cta-box-widget.php
+
+✅ Purpose:
+Creates a CTA box with customizable title, description, button, colors, padding.
+
+Note: check file 1.2
+
+
+💬 Step 4: Create Your Second Widget
+File: widgets/testimonial-widget.php
+
+✅ Purpose:
+Displays a testimonial with image, name, and content.
+
+Note: check file 1.3
