@@ -1,0 +1,18 @@
+🧩 Blank Elementor Widget Template 
+🔹 File: widgets/your-widget-slug.php
+
+Rename Your_Widget_Class_Name and your_widget_slug accordingly.
+
+NOte: Check 1.1 file
+
+✅ How to Use This Template
+1. Create a new file in the widgets/ folder, e.g. my-widget.php
+2. Replace:
+- Your_Widget_Class_Name → e.g., Elementor_My_Widget
+- your_widget_slug → e.g., my_widget
+- Your Widget Name → Widget name as shown in Elementor panel
+
+Include and register it in your elementor-custom-widgets.php:
+
+require_once( __DIR__ . '/widgets/my-widget.php' );
+$widgets_manager->register( new \Elementor_My_Widget() );
