@@ -3,12 +3,24 @@
  * Plugin Name: Elementor Custom Widgets
  * Description: Custom widgets for Elementor page builder.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Viraj Pate
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
+
+// 1️⃣ Add a custom category in Elementor for grouping your widgets
+function add_custom_widget_category( $elements_manager ) {
+    $elements_manager->add_category(
+        'custom-widgets', // Unique category slug
+        [
+            'title' => __( 'Custom Widgets', 'custom-elementor' ), // Display name
+            'icon'  => 'fa fa-plug',
+        ]
+    );
+}
+add_action( 'elementor/elements/categories_registered', 'add_custom_widget_category' );
 
 function ecw_register_widget_styles() {
     wp_register_style(
