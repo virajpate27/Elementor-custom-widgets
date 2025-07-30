@@ -1,0 +1,19 @@
+✅ Plugin Folder Structure
+elementor-custom-widgets/
+├── elementor-custom-widgets.php
+├── assets/
+│   └── css/
+│       └── custom-widgets.css
+├── widgets/
+│   ├── cta-box-widget.php
+│   └── testimonial-widget.php
+
+
+✅ 1. Main Plugin File – elementor-custom-widgets.php
+✅ 2. CSS File – assets/css/custom-widgets.css
+✅ 3. CTA Box Widget – widgets/cta-box-widget.php
+✅ 4. Testimonial Widget – widgets/testimonial-widget.php
+
+
+✅ You can now go to Elementor → Search for “CTA Box” or “Testimonial Box” and add them to your page.
+🎨 The custom CSS will automatically apply the styling.
